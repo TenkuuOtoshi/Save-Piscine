@@ -1,0 +1,10 @@
+
+int	main(void)
+{
+	char	*src;
+	char	dest[666];
+
+	src = "Reborn !";
+	ft_strcpy(dest, src);
+	printf("%s\n", dest);
+}

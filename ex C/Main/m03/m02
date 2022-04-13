@@ -1,0 +1,9 @@
+
+int	main(void)
+{
+	char	dest[50] = "Reb";
+	char	src[60] = "orn !";
+
+	ft_strcat(dest,src);
+	printf("%c", dest[1]);
+}

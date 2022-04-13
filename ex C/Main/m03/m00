@@ -1,0 +1,10 @@
+
+int	main(void)
+{
+	char	*s1;
+	char	*s2;
+
+	s1 = "123A3";
+	s2 = "123a3";
+	printf("%d", ft_strcmp(s1, s2));
+}

@@ -1,0 +1,7 @@
+
+int	main(void)
+{
+	char	str[66] = "REeeeB66ORN";
+
+	printf("%s", ft_strlowcase(str));
+}

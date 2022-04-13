@@ -1,0 +1,8 @@
+int	main(void)
+{
+	char	*str;
+
+	str = "Reborn !";
+	ft_putstr(str);
+	return (0);
+}

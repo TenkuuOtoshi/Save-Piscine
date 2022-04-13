@@ -1,0 +1,8 @@
+
+int	main(void)
+{
+	char *str;
+
+	str = "aaaaaaaaaaaaaaaaaaaaaaaa";
+	printf("%d", ft_str_is_uppercase(str));
+}

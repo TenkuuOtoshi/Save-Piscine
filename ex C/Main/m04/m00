@@ -1,0 +1,9 @@
+
+int	main(void)
+{
+	char	*str;
+
+	str = "";
+	printf("%d\n", ft_strlen(str));
+	return (0);
+}

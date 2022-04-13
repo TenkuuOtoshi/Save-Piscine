@@ -1,0 +1,11 @@
+
+#include <string.h>
+#include <stdio.h>
+
+int	main(void)
+{
+	printf("%d", ft_strncmp("oui", "0", 0));
+	printf("\n%d", strncmp("oui", "0", 0));
+
+	return (0);
+	

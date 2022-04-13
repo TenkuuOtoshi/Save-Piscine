@@ -1,0 +1,9 @@
+
+int	main(void)
+{
+	char	*str;
+
+	str = "";
+	ft_str_is_alpha(str);
+	printf("%d", ft_str_is_alpha(str));
+}

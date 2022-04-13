@@ -1,0 +1,10 @@
+int	main(void)
+{
+	char dest[50] = "yo";
+	char *src;
+
+	src = "lo";
+	printf("%s", ft_strncat(dest, src, 4));
+
+	return (0);
+}

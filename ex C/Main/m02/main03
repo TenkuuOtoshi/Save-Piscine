@@ -1,0 +1,9 @@
+
+int	main(void)
+{
+	char	*str;
+
+	str = "5q";
+	printf("%d", ft_str_is_numeric(str));
+	return (0);
+}

@@ -1,0 +1,12 @@
+
+int	main(void)
+{
+	char	*src;
+	char dest[666];
+	unsigned int n;
+
+	src = "lolt  t ";
+	n = '3';
+	ft_strncpy(dest, src, n);
+	printf("%s\n", dest);
+}

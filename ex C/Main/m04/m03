@@ -1,0 +1,8 @@
+int	main(void)
+{
+	char	*str;
+
+	str = "     +++---12345br123";
+	printf("%d", ft_atoi(str));
+	return (0);
+}

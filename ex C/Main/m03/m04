@@ -1,0 +1,10 @@
+int	main(void)
+{
+	char	*str;
+	char *to_find;
+
+	str = "123ewqdrReborn !dwqdqw";
+	to_find = "Reborn !";
+	printf("%s\n", ft_strstr(str, to_find));
+	return (0);
+}
